@@ -14,4 +14,4 @@ fi
 
 COUNT=$(ps -u "$USER_NAME" --no-headers | wc -l)
 
-echo "User '$USER_NAME' is currently running $COUNT process(es)."
+echo "User '$USER_NAME' is currently running $COUNT process(es)"
