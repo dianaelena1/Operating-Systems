@@ -20,3 +20,5 @@ while read -r line; do
 
     printf "%-20s %-20s\n" "$fullname" "$ip"
 done < "$input_file"
+
+
