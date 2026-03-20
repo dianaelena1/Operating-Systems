@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 # check if username given
