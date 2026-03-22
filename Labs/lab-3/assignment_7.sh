@@ -41,3 +41,5 @@ while IFS= read -r -d '' filepath; do
 done < <(find "$dir" -type f -print0)
 
 echo "Total lines in all ASCII text files: $total_lines"
+
+//ai problema 5
