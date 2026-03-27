@@ -3,7 +3,7 @@
 dir="$1"
 
 if [ ! -d "$dir" ]; then
-	echo "Usage: $0 directory"
+	echo "Its not a directory!"
 	exit 1
 fi
 
