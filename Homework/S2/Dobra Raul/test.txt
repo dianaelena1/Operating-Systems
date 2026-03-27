@@ -1,3 +1,5 @@
 Linia 3
-Input
-Input2
+Un exemplu exemplu de cuvinte duplicate
+Nu e un exemplu
+BBBBB
+Aici Aici e un cuvant duplicat
