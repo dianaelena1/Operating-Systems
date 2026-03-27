@@ -18,7 +18,7 @@ for FILE in "$@"; do
     fi
 done
 
-#cd "Operating-Systems/Homework/S2/Stan Adrian/assignment2"
+#cd "Operating-Systems/Homework/S2/Stan Adrian-Razvan/assignment2"
 #chmod +x s3.sh
 #echo "Ana are mere" > text1.txt
 #echo "Ana are pere" >> text1.txt
