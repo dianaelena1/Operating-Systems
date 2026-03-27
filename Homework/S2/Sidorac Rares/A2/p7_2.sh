@@ -7,8 +7,13 @@ fi
 
 
 
+#for host in "$@"; do
+#     if ping -c 1 -W 2 "$host" > /dev/null; then
+#        echo "$host"
+#    fi
+#done
+
+
 for host in "$@"; do
-     if ping -c 1 -W 2 "$host" > /dev/null; then
-        echo "$host"
-    fi
+    ping -c 1 -W 2 "$host" 2>&1 | grep -q "1 received" && echo "$host"
 done
