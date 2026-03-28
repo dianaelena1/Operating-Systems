@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ "$#" -lt 1 ]; then
+if [ "$#" -lt 2 ]; then
     echo "Error: You must provide at least one directory name."
     exit 1
 fi
