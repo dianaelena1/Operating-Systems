@@ -1,0 +1,4 @@
+Hello world!
+This is a test file for the shell script.
+The word 'world' appears in the first line.
+We hope the world stays a peaceful place.
