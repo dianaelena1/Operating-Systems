@@ -1,0 +1,4 @@
+item: orange_red, stock: 50, location: warehouse_a
+item: orange_green, stock: 30, location: warehouse_b
+item: orange_fuji, stock: 100, location: warehouse_a
+item: banana, stock: 200, location: warehouse_c
