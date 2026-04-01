@@ -1,0 +1,3 @@
+admins:x:1001:andreea,prof,root
+students:x:1002:student1,student2,student3
+guests:x:1003:
