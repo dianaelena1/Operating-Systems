@@ -11,3 +11,4 @@
 .vscode/
 *.iml
 ~$*.pptx
+.DS_Store
