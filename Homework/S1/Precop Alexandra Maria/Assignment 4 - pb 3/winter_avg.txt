@@ -1,0 +1,5 @@
+Alina 8.2
+Mihai 7.5
+Valentin 9.0
+Lucian 6.8
+Maria 8.8

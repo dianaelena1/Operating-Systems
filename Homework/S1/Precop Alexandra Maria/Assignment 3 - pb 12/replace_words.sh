@@ -13,7 +13,7 @@ shift 2
 for file in "$@"; do
   if [ -f "$file" ]; then
     echo "Processing $file..."
-    awk "{ gsub(/$find_word/, \"$replace_word\"); print }" "$file" > "$file.tmp" && mv "$file.tmp" "$file"
+    awk "{ gsub(/$find_word/, \"$replace_word\"); print }" "$file" | mv "$file.tmp" "$file"
     echo "Processed!"
   else
     echo "Error: $file not found, skipping..."
