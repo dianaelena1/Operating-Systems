@@ -1,8 +1,10 @@
 #!/bin/bash
 
 litera=$1
+
 shift
 for fisier in "$@"
+
 do
     if [ -f "$fisier" ]; then
         echo "Se procesează fișierul: $fisier"

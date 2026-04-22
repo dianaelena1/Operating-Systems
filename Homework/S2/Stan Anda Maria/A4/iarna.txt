@@ -1,4 +1,4 @@
-Ionescu Maria 9.50
-Popescu Ion 8.00
-Sandu Radu 7.50
-Vasile Andrei 6.00
+Ionescu Maria 9.65
+Sandu Radu 8.35
+Vasile Andrei 8
+Popescu Ion 7.7
