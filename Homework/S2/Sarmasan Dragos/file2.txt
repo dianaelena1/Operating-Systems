@@ -1,0 +1,7 @@
+Tiny
+Just a bit
+This line is definitely longer than ten characters
+No
+Exactly ten!
+Wow this one is also quite long indeed
+Ok
