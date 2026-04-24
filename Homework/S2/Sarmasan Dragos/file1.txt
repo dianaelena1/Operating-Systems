@@ -1,7 +1,0 @@
-Hello
-This is a longer line that exceeds ten characters
-Short
-Another long line here!
-Hi
-One more line going beyond ten chars
-Bye
