@@ -10,6 +10,7 @@ fi
 shift
 
 while IFS= read -r nume_de_sters || [ -n "$nume_de_sters" ]; do
+
     for director in "$@"; do
         if [ -d "$director" ]; then
             echo "Caut și șterg '$nume_de_sters' în: $director"
