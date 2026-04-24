@@ -3,7 +3,7 @@
 
 int main() {
     FILE *file;
-    char filename[] = "input.txt"; // Numele fișierului tău
+    char filename[] = "input.txt";
     int ch;
     int digit_count = 0;
     int line_number = 1;
@@ -27,10 +27,13 @@ int main() {
         }
     }
 
-    if (digit_count > 0 || (line_number == 1 && !isdigit(ch))) {
-         if (line_number > 0 && ftell(file) > 0) {
-         }
-    }
+    if (ftell(file) > 0) {
+            if (digit_count > 0) {
+                printf("Linia %d are %d cifre.\n", line_number, digit_count);
+            } else if (line_number == 1) {
+                printf("Linia %d are 0 cifre.\n", line_number);
+            }
+        }
 
     fclose(file);
     return 0;
