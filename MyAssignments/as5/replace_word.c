@@ -30,7 +30,7 @@ int main(int argc, char *argv[]) {
             buffer[0] = (char)c;
             int i;
 
-            // read the rest of char
+            // read the rest of chars
             for (i = 1; i < target_len; i++) {
                 c = fgetc(file);
                 if (c == EOF) break;
