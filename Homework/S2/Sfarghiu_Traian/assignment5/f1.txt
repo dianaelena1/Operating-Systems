@@ -1,0 +1,5 @@
+Apples 10
+Bananas 5
+We are out of oranges today.
+Pears 12 3
+Grapes are arriving tomorrow.
