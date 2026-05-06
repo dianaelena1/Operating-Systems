@@ -1,4 +1,4 @@
 Ionescu Maria 9.9
-Sandu Radu 9.1
-Vasile Andrei 9
+Vasile Andrei 9.5
+Sandu Radu 8.6
 Popescu Ion 7.2
