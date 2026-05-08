@@ -44,6 +44,7 @@ int main(int argc, char *argv[]) {
             } else {
                 printf("%s", buffer);
             }
+            
             free(buffer);
         } else {
             // just print the character
