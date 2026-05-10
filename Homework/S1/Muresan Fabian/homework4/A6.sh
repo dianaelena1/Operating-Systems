@@ -19,7 +19,7 @@ fi
             tr -d '*[]')
 
     for var in $globals; do
-        count=$(grep -E -o "\<$var\>" "$file" | wc -l)
+        count=$(grep -E -o "\<$var\>" "c$file" | wc -l)
         
         lines=$(grep -E -n "\<$var\>" "$file" | cut -d: -f1 | tr '\n' ' ')
         
