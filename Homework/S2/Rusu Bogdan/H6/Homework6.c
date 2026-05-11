@@ -3,19 +3,19 @@
 
 // Using the recommended main function header to access command line arguments
 int main(int argc, char** argv) {
-    if (argc != 2) {
+    if (argc != 2) { // se asteapta exact 2 argumente
         printf("Usage: %s <filename>\n", argv[0]);
         return 1;
     }
 
     // Open the text file for reading
-    FILE *fp = fopen(argv[1], "r");
-    if (fp == NULL) {
+    FILE *fp = fopen(argv[1], "r"); // deschide fisieru dat ca prim argument in modul citire -r. fp devine un pointer catre acest fisier
+    if (fp == NULL) { // daca operatiunea de deschidere a esuat
         printf("Error: Cannot open file '%s'.\n", argv[1]);
         return 1;
     }
 
-    int c;
+    int c; // variabila folosita pentru a stoca fiecare caracter citit, rand pe rand, din fisier
     int in_word = 0;       // State tracker: 1 if currently inside a word, 0 otherwise
     int word_count = 0;    // Words on the current line
     int line_number = 1;   // Current line number
