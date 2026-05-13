@@ -1,0 +1,7 @@
+This is a standard line with normal spacing.
+This line   has   multiple spaces   between words.
+	This line starts with a tab.
+
+The line above this one is completely empty.
+      
+The line above this one only has spaces.
