@@ -20,7 +20,7 @@ def main():
     for p in processes:
         p.join()
 
-    print(f"{'Letter':<8} | {'Frequencu':<10}")
+    print(f"{'Letter':<8} | {'Frequency':<10}")
     print("-" * 20)
 
     for letter in sorted(results.keys()):
