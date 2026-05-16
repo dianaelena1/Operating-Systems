@@ -24,7 +24,7 @@ int main() {
     }
 
     if (pid > 0) {
-        //PARENT PROCESS
+        //parent process
         close(pipe1[0]);
         close(pipe2[1]);
 
@@ -47,7 +47,7 @@ int main() {
         wait(NULL);
     }
     else {
-        //CHILD PROCESS
+        //child process
         close(pipe1[1]);
         close(pipe2[0]);
 
